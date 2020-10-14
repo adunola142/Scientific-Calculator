@@ -1,0 +1,137 @@
+body {
+  background: #F54BB2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #85D8CE, #F54BB2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #85D8CE, #F54BB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  align-items: center;
+  justify-content: center;
+  display: block;
+
+}
+
+h1{
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: none;
+font-family: sans-serif;
+font-size: 3rem;
+font-weight: bolder;
+font-style: italic;
+
+
+}
+
+div{
+
+  width: auto;
+}
+
+.calculator {
+ width: 490px;
+ background-color: beige;
+ padding: 20px;
+ border-radius: 10px;
+ margin: 12% 30%;
+ align-items: center;
+
+}
+
+
+#screen{
+  width: 90%;
+  font-size:5rem;
+  padding: 0.5rem;
+  background-color:rgb(41, 41, 56);
+  color: white;
+  border:none;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 20px ;
+
+}
+
+
+.calculator-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.button {
+ margin: 10px;
+ width: 50px;
+ border: none;
+ height:50px;
+ border-radius: 4px;
+ color: #000000;
+ cursor: pointer;
+ border:1px solid #0C05F7;
+ padding:0.25rem 0;
+ transition: all 2s ease;
+}
+
+button:hover {
+  background-color: blue;
+  transition: 1.5s;
+}
+
+button:active{
+
+  border:none;
+  outline: none;
+  background-color: #F54BB2;
+}
+
+
+
+
+.first-functions {
+  width: 210px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.second-functions {
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.triggers {
+  background-color: #F7052A;
+}
+
+
+
+.nums {
+  background-color:rgb(224, 224,224);
+
+}
+
+.basic-btn {
+  background-color:rgb(245,146,62);
+}
+
+.complex-btn {
+  background-color: #80ffff;
+}
+
+.triggers,.nums,.basic-btn,.complex-btn{
+
+  font-size: 1rem;
+}
+
+footer{
+display: flex;
+align-items: center;
+justify-content: center;
+font:2rem bolder;
+font-family: sans-serif;
+
+}
